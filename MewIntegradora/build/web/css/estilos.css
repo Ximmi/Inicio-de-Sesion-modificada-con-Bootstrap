@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/10/2016, 07:47:28 PM
+    Author     : Usuario
+*/
+
+.titulo{
+    //color:#f8d3d7;
+    color:#e65c69;
+    font-size:100px;
+    text-align: justify; 
+   // font-family: "Patrick Hand", Century Gothic;
+   font-family:"Slabo 27px";
+}
+.datus{
+    color:#A2798F;
+    font-family: "Muli";
+    font-size: 20px;
+    
+}
+.datos{
+    background-color: #f8d1d5;
+    font-size:20px;
+    font-family: "Muli", Century Gothic;
+   
+}
+.contenerdor{
+  //  position: absolute;
+    width:100%;
+    color: #F0FFFF;
+    //padding:200px;
+    .formulario{
+        width:100%;
+        margin:auto;
+        
+        .input-group{
+            position:relative;
+            margin-bottom:32px;
+            font-family: "Century Gothic";
+            font-size:16px;
+            width:100%;
+            outline:none;
+            padding:15px;
+            background:none;
+            border:none;
+            border-bottom: 2px solid #E8FBFC ;
+
+            
+        }
+    }
+}
+.wrap{
+    width: 30%;
+    max-width: 700px;
+    padding:30px;
+    margin: auto;
+    box-shadow:0px 0px 3px grey;
+    /*margin: auto;*/
+}
+.contenerdorform{
+    position: absolute;
+    width:100%;
+    color: #F0FFFF;
+    padding:200px;
+    .formulario{
+        width:100%;
+        margin:auto;
+        
+        .input-group{
+            position:relative;
+            margin-bottom:32px;
+            font-family: "Century Gothic";
+            font-size:16px;
+            width:100%;
+            outline:none;
+            padding:15px;
+            background:none;
+            border:none;
+            border-bottom: 2px solid #E8FBFC ;
+
+            
+        }
+    }
+}
+.wrapform{
+    width: 60%;
+    max-width: 1000px;
+    padding:30px;
+    margin: auto;
+    box-shadow:0px 0px 3px grey;
+    /*margin: auto;*/
+}
+.ingresa{
+    font-size:30px;
+    color: #4de4e1;
+    font-family:"Raleway";
+}
+.boxes{
+    font-family:  "Muli", Century Gothic;
+    color:#E286BD;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.sub{
+    background-color: #6ce3c6;
+    font-family:  "Muli", Century Gothic;
+    color: #001f3f;
+    font-size: 20px;
+    width:100px;
+    height: 35px;
+    border-radius: 8px;
+}
+.reg{
+    background-color: #EEACA1;
+    font-family:  "Muli", Century Gothic;
+    color: #FFF3D8;
+    font-size: 16px;
+    width:100px;
+    height: 30px;
+    border-radius: 6px;
+}
+.cuenta{
+      color:#ac889c;
+    font-family: "Muli";
+    font-size: 16px;
+}

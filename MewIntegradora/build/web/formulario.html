@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Regístrate!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link href='https://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/estilos2.css">
+    </head>
+    <body style="background-image: url(img/principal.jpg)">
+        <form action="Formulario.jsp" name="altas" method="post">
+            <div style="float:left; width: 100%; height: 490px">
+           <header>
+                <div class="container">
+                    <h1 style="titulo">Regístrate!</h1>
+                </div>
+            </header>
+                <div>
+            <div class="col-md-1"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-1"></div>
+             <div class="col-md-4">
+                 <br><br>
+                 <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre"  onkeypress="return sololetras(event)">
+                        <br><br>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido"  onkeypress="return sololetras(event)">
+                        <br><br><label for="telefono">Telefono:</label>
+                        <input type="text" id="telefono" name="telefono"  onkeypress="return soloEnteros (event)">
+                        <br><br><label for="correo">Correo electronico:</label>
+                        <input type="text" id="correo" name="correo" >
+                        <br><br><label for="edad">Edad:</label>
+                        <input type="text" id="edad" name="edad" onkeypress="return soloEnteros2 (event)">
+                        <br>
+                    <br>Sexo:<br>
+                    <input type="radio" name="sexo" value="Hombre">Hombre<br>
+                    <input type="radio" name="sexo" value="Mujer">Mujer<br><br>
+                    <br><input type="submit" id="Enviar" name="alta">
+                    
+             </div>
+            </div>
+            </div>
+            
+        </form>
+    </body>
+</html>
